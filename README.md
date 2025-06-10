@@ -7,6 +7,7 @@ Solutions to iximiuz Labs Challenges
 ### Linux
 
 - [Create a Linux Network Namespace](./easy/create_a_linux_network_namespace)
+- [Install Docker Engine on Debian](./easy/install_docker_engine_on_debian/)
 - [Install Docker Engine on Fedora](./easy/install_docker_engine_on_fedora)
 
 ### Containers

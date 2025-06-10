@@ -9,7 +9,7 @@ Docker comes in two flavors:
 In this challenge, you will practice installing Docker Engine on a Fedora virtual machine.
 
 <p align="center"> 
-    <img src="https://labs.iximiuz.com/content/files/challenges/docker-install-on-fedora/__static__/docker-architecture.png" alt="docker-architecture" > 
+    <img src="https://labs.iximiuz.com/content/files/challenges/docker-install-on-fedora/__static__/docker-architecture.png" width="400" alt="docker-architecture" > 
 </p>
 
 To highlight the multi-component nature of Docker, the challenge is divided into multiple tasks, each verifying a different aspect of the installation.
@@ -24,7 +24,7 @@ The ``dockerd`` daemon runs as ``root`` and exposes its API via a Unix socket wi
 
 Final check – verifying that the Docker installation is working as expected.
 
-## ** Source **
+## **Source**
 
 [Install Docker Engine on Fedora](https://labs.iximiuz.com/challenges/docker-install-on-fedora)
 

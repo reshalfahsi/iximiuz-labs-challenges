@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 # runc installation
 sudo dnf install -y runc
 

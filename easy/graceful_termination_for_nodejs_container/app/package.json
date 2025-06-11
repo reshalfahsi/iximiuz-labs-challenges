@@ -1,0 +1,17 @@
+{                                                                                
+   "name": "app",                                                                 
+   "version": "1.0.0",                                                            
+   "type": "module",                                                              
+   "main": "index.js",                                                            
+   "scripts": {                                                                   
+     "start": "node index.js",                                                    
+     "test": "mocha *.test.js",                                                   
+     "docker:build": "docker build -t app:latest .",                              
+     "docker:run": "docker run app"                                               
+   },                                                                             
+   "devDependencies": {                                                           
+     "chai": "^5.1.2",                                                            
+     "mocha": "^11.0.1",                                                          
+     "supertest": "^7.0.0"                                                        
+   }                                                                              
+}     

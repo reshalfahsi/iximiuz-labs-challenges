@@ -27,6 +27,7 @@ Solutions to iximiuz Labs Challenges
 
 ### Linux
 
+- [Connect Two Network Namespaces](./medium/connect_two_network_namespaces)
 - [Diagnose and Resolve Stability Issues in a Go Application Deployment](./medium/fix_go_app_container_oom)
 - [Set Up Network Address Translation (NAT) for a Container](./medium/set_up_nat_for_container)
 

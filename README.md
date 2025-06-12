@@ -19,8 +19,9 @@ Solutions to iximiuz Labs Challenges
 
 - [Build and Publish a Container Image With Docker](./easy/build_and_publish_container_image_with_docker)
 - [Copy a Container Image from One Repository to Another with Docker](./easy/copy_container_image_from_one_repository_to_another_with_docker)
+- [Copy Files To/From a Running Docker Container](./easy/copy_files_to_from_container)
 - [Docker 101: Run Your First Container](./easy/docker_101_container_run)
-- [Docker 101: Override Default Container Commands and Arguments](./easy/docker_101_container_run_override_command/)
+- [Docker 101: Override Default Container Commands and Arguments](./easy/docker_101_container_run_override_command)
 
 ### Kubernetes
 

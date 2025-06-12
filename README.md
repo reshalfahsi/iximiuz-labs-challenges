@@ -17,6 +17,9 @@ Solutions to iximiuz Labs Challenges
 
 ### Containers
 
+- [Docker 101: Run Your First Container](./easy/docker_101_container_run)
+- [Docker 101: Override Default Container Commands and Arguments](./easy/docker_101_container_run_override_command/)
+
 ### Kubernetes
 
 ### Networking

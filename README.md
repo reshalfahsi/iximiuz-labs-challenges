@@ -22,6 +22,7 @@ Solutions to iximiuz Labs Challenges
 - [Copy Files To/From a Running Docker Container](./easy/copy_files_to_from_container)
 - [Docker 101: Run Your First Container](./easy/docker_101_container_run)
 - [Docker 101: Override Default Container Commands and Arguments](./easy/docker_101_container_run_override_command)
+- [Edit a File in a Running Container: a Simple Case](./easy/edit_file_in_running_container)
 
 ### Kubernetes
 

@@ -45,6 +45,9 @@ Solutions to iximiuz Labs Challenges
 
 ### Linux
 
+- [Connect Multiple Network Namespaces](./hard/connect_multiple_network_namespaces)
+- [Network Access to a Container Started by ctr](./hard/access_containerd_container_with_no_published_ports)
+
 ### Containers
 
 ### Kubernetes

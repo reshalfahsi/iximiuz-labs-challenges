@@ -17,6 +17,7 @@ Solutions to iximiuz Labs Challenges
 
 ### Containers
 
+- [Copy a Container Image from One Repository to Another with Docker](./easy/copy_container_image_from_one_repository_to_another_with_docker)
 - [Docker 101: Run Your First Container](./easy/docker_101_container_run)
 - [Docker 101: Override Default Container Commands and Arguments](./easy/docker_101_container_run_override_command/)
 

@@ -12,7 +12,7 @@ Good luck!
 
 ### **Hint #1**
 
-It's an easy one - try docker pull --help if you feel a bit lost.
+It's an easy one - try ``docker pull --help`` if you feel a bit lost.
 
 ### **Hint #2**
 

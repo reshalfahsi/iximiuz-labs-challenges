@@ -43,7 +43,7 @@ Solutions to iximiuz Labs Challenges
 ### CI/CD
 
 - [Create Your First Dagger Module](./easy/create_first_dagger_module)
-- []()
+- [Install the Dagger CLI on a Linux Host](./easy/install_dagger_on_linux)
 
 ## Medium
 

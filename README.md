@@ -25,6 +25,7 @@ Solutions to iximiuz Labs Challenges
 - [Edit a File in a Running Container: a Simple Case](./easy/edit_file_in_running_container)
 - [Label a Container Image Using ctr](./easy/labeling_container_images_with_ctr)
 - [Pull Container Images Using ctr](./easy/pulling_container_images_with_ctr)
+- [Send a Signal to a Kubernetes App: a Simple Case](./easy/kubernetes_signal_container)
 - [Start and Inspect a Container With contaiNERD CTL (nerdctl)](./easy/start_container_with_nerdctl)
 - [Start and Inspect a Container With Docker](./easy/start_container_with_docker)
 - [Start and Inspect a Container With Podman](./easy/start_container_with_podman)

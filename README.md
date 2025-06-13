@@ -6,10 +6,7 @@ Solutions to iximiuz Labs Challenges
 
 ### Linux
 
-- [Classic Sysadmin Task: Which Process Is Listening on a Port?](./easy/linux_find_process_using_port)
-- [Create a Linux Network Namespace](./easy/create_a_linux_network_namespace)
 - [Ensure a Graceful Termination for a Containerized Node.js Application](./easy/graceful_termination_for_nodejs_container)
-- [Forward a Port Using The Multipurpose Relay Tool: socat](./easy/forward_a_port_using_the_multipurpose_relay_tool_socat)
 - [Install Docker Engine on Debian](./easy/install_docker_engine_on_debian)
 - [Install Docker Engine on Fedora](./easy/install_docker_engine_on_fedora)
 - [Install Docker Engine on Ubuntu](./easy/install_docker_engine_on_ubuntu)
@@ -20,13 +17,11 @@ Solutions to iximiuz Labs Challenges
 - [Build and Publish a Container Image With Docker](./easy/build_and_publish_container_image_with_docker)
 - [Copy a Container Image from One Repository to Another with Docker](./easy/copy_container_image_from_one_repository_to_another_with_docker)
 - [Copy Files To/From a Running Docker Container](./easy/copy_files_to_from_container)
-- [Copy Files To/From a Running Kubernetes Pod: a Simple Case](./easy/copy_files_to_from_kubernetes_pod)
 - [Docker 101: Run Your First Container](./easy/docker_101_container_run)
 - [Docker 101: Override Default Container Commands and Arguments](./easy/docker_101_container_run_override_command)
 - [Edit a File in a Running Container: a Simple Case](./easy/edit_file_in_running_container)
 - [Label a Container Image Using ctr](./easy/labeling_container_images_with_ctr)
 - [Pull Container Images Using ctr](./easy/pulling_container_images_with_ctr)
-- [Send a Signal to a Kubernetes App: a Simple Case](./easy/kubernetes_signal_container)
 - [Start and Inspect a Container With contaiNERD CTL (nerdctl)](./easy/start_container_with_nerdctl)
 - [Start and Inspect a Container With Docker](./easy/start_container_with_docker)
 - [Start and Inspect a Container With Podman](./easy/start_container_with_podman)
@@ -35,7 +30,15 @@ Solutions to iximiuz Labs Challenges
 
 ### Kubernetes
 
+- [Copy Files To/From a Running Kubernetes Pod: a Simple Case](./easy/copy_files_to_from_kubernetes_pod)
+- [Deploy a Resource-Greedy Pod Without Breaking the Kubernetes Cluster](./easy/start_pod_with_limited_resources)
+- [Send a Signal to a Kubernetes App: a Simple Case](./easy/kubernetes_signal_container)
+
 ### Networking
+
+- [Classic Sysadmin Task: Which Process Is Listening on a Port?](./easy/linux_find_process_using_port)
+- [Create a Linux Network Namespace](./easy/create_a_linux_network_namespace)
+- [Forward a Port Using The Multipurpose Relay Tool: socat](./easy/forward_a_port_using_the_multipurpose_relay_tool_socat)
 
 ### CI/CD
 

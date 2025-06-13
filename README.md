@@ -42,6 +42,9 @@ Solutions to iximiuz Labs Challenges
 
 ### CI/CD
 
+- [Create Your First Dagger Module](./easy/create_first_dagger_module)
+- []()
+
 ## Medium
 
 ### Linux

@@ -20,6 +20,7 @@ Solutions to iximiuz Labs Challenges
 - [Build and Publish a Container Image With Docker](./easy/build_and_publish_container_image_with_docker)
 - [Copy a Container Image from One Repository to Another with Docker](./easy/copy_container_image_from_one_repository_to_another_with_docker)
 - [Copy Files To/From a Running Docker Container](./easy/copy_files_to_from_container)
+- [Copy Files To/From a Running Kubernetes Pod: a Simple Case](./easy/copy_files_to_from_kubernetes_pod)
 - [Docker 101: Run Your First Container](./easy/docker_101_container_run)
 - [Docker 101: Override Default Container Commands and Arguments](./easy/docker_101_container_run_override_command)
 - [Edit a File in a Running Container: a Simple Case](./easy/edit_file_in_running_container)

@@ -24,6 +24,7 @@ Solutions to iximiuz Labs Challenges
 - [Docker 101: Override Default Container Commands and Arguments](./easy/docker_101_container_run_override_command)
 - [Edit a File in a Running Container: a Simple Case](./easy/edit_file_in_running_container)
 - [Start and Inspect a Container With Docker](./easy/start_container_with_docker)
+- [Working With containerd Namespaces](./easy/containerd_namespaces)
 
 ### Kubernetes
 

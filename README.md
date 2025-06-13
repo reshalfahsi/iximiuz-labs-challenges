@@ -47,17 +47,16 @@ Solutions to iximiuz Labs Challenges
 
 ## Medium
 
-### Linux
-
-- [Connect Two Network Namespaces](./medium/connect_two_network_namespaces)
-- [Diagnose and Resolve Stability Issues in a Go Application Deployment](./medium/fix_go_app_container_oom)
-- [Set Up Network Address Translation (NAT) for a Container](./medium/set_up_nat_for_container)
-
 ### Containers
 
 ### Kubernetes
 
+- [Diagnose and Resolve Stability Issues in a Go Application Deployment](./medium/fix_go_app_container_oom)
+
 ### Networking
+
+- [Connect Two Network Namespaces](./medium/connect_two_network_namespaces)
+- [Set Up Network Address Translation (NAT) for a Container](./medium/set_up_nat_for_container)
 
 ### Programming
 
@@ -65,15 +64,13 @@ Solutions to iximiuz Labs Challenges
 
 ## Hard
 
-### Linux
-
-- [Connect Multiple Network Namespaces](./hard/connect_multiple_network_namespaces)
-- [Network Access to a Container Started by ctr](./hard/access_containerd_container_with_no_published_ports)
-
 ### Containers
 
 ### Kubernetes
 
 ### Networking
+
+- [Connect Multiple Network Namespaces](./hard/connect_multiple_network_namespaces)
+- [Network Access to a Container Started by ctr](./hard/access_containerd_container_with_no_published_ports)
 
 ### Programming

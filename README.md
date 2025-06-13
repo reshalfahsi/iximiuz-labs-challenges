@@ -27,6 +27,7 @@ Solutions to iximiuz Labs Challenges
 - [Pull Container Images Using ctr](./easy/pulling_container_images_with_ctr)
 - [Start and Inspect a Container With contaiNERD CTL (nerdctl)](./easy/start_container_with_nerdctl)
 - [Start and Inspect a Container With Docker](./easy/start_container_with_docker)
+- [Start and Inspect a Container With Podman](./easy/start_container_with_podman)
 - [Tag and Push Container Images Using ctr](./easy/pushing_container_images_with_ctr)
 - [Working With containerd Namespaces](./easy/containerd_namespaces)
 

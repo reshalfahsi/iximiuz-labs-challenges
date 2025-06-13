@@ -12,7 +12,7 @@ You can use any container image you like, but we recommend choosing a long-runni
 >
 > **nerdctl** tries to be as compatible with the Docker CLI as possible. If you're familiar with Docker, you already know how to start a container with contaiNERD CTL. And if you're not, try solving this [Docker 101 challenge](https://labs.iximiuz.com/challenges/start-container-with-docker) first.
 
-To keep track of containers, Docker assigns a unique ID to each of them. Can you find the ID of the container that you've just started?
+To keep track of containers, nerdctl assigns a unique ID to each of them. Can you find the ID of the container that you've just started?
 
 > **Hint #2:**
 >
@@ -20,7 +20,7 @@ To keep track of containers, Docker assigns a unique ID to each of them. Can you
 
 Now, when you have a running container, let's try to understand what it actually is.
 
-Did you know that [Docker containers are "just" Linux processes](https://iximiuz.com/en/posts/oci-containers/)? Can you locate the main container's process? What is its PID?
+Did you know that [Linux containers are regular processes](https://iximiuz.com/en/posts/oci-containers/)? Can you locate the main container's process? What is its PID?
 
 > **Hint #3:**
 >
@@ -28,7 +28,7 @@ Did you know that [Docker containers are "just" Linux processes](https://iximiuz
 
 > **Hint #4:**
 >
-> Entered a PID of a process that definitely belongs to the container, but the solution checker doesn't accept it? One of the key Docker design principles is to run **one service per container**. However, it doesn't mean that every container will have only one process inside. Actually, more often than not, you'll find a whole process tree inside a container. Try identifying the root process of that tree. That's what the checker expects.
+> Entered a PID of a process that definitely belongs to the container, but the solution checker doesn't accept it? One of the key Docker (hence, containerd) design principles is to run **one service per container**. However, it doesn't mean that every container will have only one process inside. Actually, more often than not, you'll find a whole process tree inside a container. Try identifying the root process of that tree. That's what the checker expects.
 
 > **Hint #5:**
 >
@@ -37,7 +37,7 @@ Did you know that [Docker containers are "just" Linux processes](https://iximiuz
 Approximating containers to *regular Linux processes* is helpful, but it's not very accurate. Thinking of containers as of *boxes for processes* might be even more helpful at times.
 
 <p align="center"> 
-    <img src="https://labs.iximiuz.com/content/files/challenges/start-container-with-docker/__static__/container-box.png" width="400" alt="container-box" > 
+    <img src="https://labs.iximiuz.com/content/files/challenges/start-container-with-nerdctl/__static__/container-box.png" width="400" alt="container-box" > 
 </p>
 
 From inside the box, it may look like the containerized app is running on its own machine. In particular, such a virtualized environment will have its own network interface and an IP address. Can you find the IP address of the container that you've just started?

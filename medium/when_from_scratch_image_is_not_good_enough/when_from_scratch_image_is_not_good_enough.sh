@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 
-
 # Step 1: Diagnosis
 
 # Send the HTTP request

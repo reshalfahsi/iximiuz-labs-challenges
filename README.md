@@ -50,6 +50,7 @@ Solutions to iximiuz Labs Challenges
 ### Containers
 
 - [Start and Inspect a Container With containerd CLI - ctr](./medium/start_container_with_ctr)
+- [When a FROM scratch Container Image Is Not Good Enough](./medium/when_from_scratch_image_is_not_good_enough)
 
 ### Kubernetes
 

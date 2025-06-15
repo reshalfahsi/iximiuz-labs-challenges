@@ -57,6 +57,7 @@ Solutions to iximiuz Labs Challenges
 ### Kubernetes
 
 - [Diagnose and Resolve Stability Issues in a Go Application Deployment](./medium/fix_go_app_container_oom)
+- [Kubernetes Pod With a Faulty Init Sequence](./medium/kubernetes_pod_with_faulty_init_sequence) (**PARTIALLY SOLVED - NEED HELP!!!**)
 
 ### Networking
 

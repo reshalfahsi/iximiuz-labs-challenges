@@ -74,10 +74,6 @@ Solutions to iximiuz Labs Challenges
 
 ## Hard
 
-### Containers
-
-### Kubernetes
-
 ### Networking
 
 - [Connect Multiple Network Namespaces](./hard/connect_multiple_network_namespaces)

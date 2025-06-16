@@ -67,6 +67,8 @@ Solutions to iximiuz Labs Challenges
 
 ### Programming
 
+- [Build a Production-Ready Node.js Container Image: Next.js Application](./medium/dockerize_nodejs_application_nextjs) (**UNSOLVED - NEED HELP!!!**)
+
 ### CI/CD
 
 ## Hard

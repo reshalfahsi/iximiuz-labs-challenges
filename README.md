@@ -74,6 +74,9 @@ Solutions to iximiuz Labs Challenges
 
 ### CI/CD
 
+- [Write a Dagger Function to Build a Go Project](./medium/write_first_dagger_function)
+- [Write a Dagger Function to Test a Go Project]()
+
 ## Hard
 
 ### Networking

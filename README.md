@@ -69,6 +69,7 @@ Solutions to iximiuz Labs Challenges
 
 - [Build a Production-Ready Go Container Image: A Statically Linked Application](./medium/dockerize_golang_application_static_linking)
 - [Build a Production-Ready Node.js Container Image: Next.js Application](./medium/dockerize_nodejs_application_nextjs) (**UNSOLVED - NEED HELP!!!**)
+- [Build a Production-Ready Node.js Container Image: Nuxt Application](./medium/dockerize_nodejs_application_nuxt)
 
 ### CI/CD
 

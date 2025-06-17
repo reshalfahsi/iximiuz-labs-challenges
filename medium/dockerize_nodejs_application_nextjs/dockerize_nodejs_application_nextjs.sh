@@ -13,5 +13,5 @@ npm run docker:build
 
 # Step 4: Run the Container
 # This script should contain: docker run --name nextjs-app -p 3000:3000 -d registry.iximiuz.com/app:v1.0.0
-npm run docker:run
+# npm run docker:run
 # docker run --name nextjs-app -p 3000:3000 -d registry.iximiuz.com/app:v1.0.0

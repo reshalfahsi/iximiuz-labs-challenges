@@ -86,4 +86,5 @@ Solutions to iximiuz Labs Challenges
 
 ### Programming
 
+- [Build a Production-Ready Go Container Image: A Dynamically Linked Application](./hard/dockerize_golang_application_dynamic_linking)
 - [Build a Production-Ready Python Container Image: FastAPI Application](./hard/dockerize_python_application)

@@ -50,7 +50,7 @@ Solutions to iximiuz Labs Challenges
 ### Containers
 
 - [Extract the Filesystem of a Container Image](./medium/extract_container_image_filesystem)
-- [Install and Configure containerd on a Linux Host](./medium/install_and_configure_containerd) (**PARTIALLY SOLVED - NEED HELP!!!**)
+- [Install and Configure containerd on a Linux Host](./medium/install_and_configure_containerd)
 - [Start and Inspect a Container With containerd CLI - ctr](./medium/start_container_with_ctr)
 - [When a FROM scratch Container Image Is Not Good Enough](./medium/when_from_scratch_image_is_not_good_enough)
 

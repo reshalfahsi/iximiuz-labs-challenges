@@ -1,0 +1,31 @@
+[project]
+name = "app"
+version = "0.1.0"
+description = "A simple FastAPI project"
+authors = [{ name = "iximiuz Labs", email = "laborant@labs.iximiuz.com" }]
+dependencies = [
+    "fastapi>=0.115.7",
+    "uvicorn[standard]>=0.34.0",
+    "jinja2>=3.1.5",
+    "pycairo>=1.27.0",
+]
+requires-python = ">= 3.13"
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.3.4",
+    "httpx>=0.28.1"
+]
+
+[project.scripts]
+test = "tests:main"
+
+[tool.pytest.ini_options]
+pythonpath = "app"
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+exclude = ["logs/*"]

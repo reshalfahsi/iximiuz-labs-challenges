@@ -85,3 +85,5 @@ Solutions to iximiuz Labs Challenges
 - [Network Access to a Container Started by ctr](./hard/access_containerd_container_with_no_published_ports)
 
 ### Programming
+
+- [Build a Production-Ready Python Container Image: FastAPI Application](./hard/dockerize_python_application)

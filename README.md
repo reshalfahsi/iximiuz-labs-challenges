@@ -11,6 +11,7 @@ Solutions to iximiuz Labs Challenges
 - [Install Docker Engine on Fedora](./easy/install_docker_engine_on_fedora)
 - [Install Docker Engine on Ubuntu](./easy/install_docker_engine_on_ubuntu)
 - [Limit CPU and Memory Usage of a Linux Process](./easy/limit_cpu_and_memory_of_linux_process)
+- [Linux Storage: Format a Drive with Ext4 Filesystem](./easy/storage_simple_format)
 
 ### Containers
 

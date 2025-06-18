@@ -36,6 +36,7 @@ Solutions to iximiuz Labs Challenges
 
 ### Networking
 
+- [Classic Sysadmin Task: Which Port Is a Service Listening On?](./easy/linux_find_port_used_by_service)
 - [Classic Sysadmin Task: Which Process Is Listening on a Port?](./easy/linux_find_process_using_port)
 - [Create a Linux Network Namespace](./easy/create_a_linux_network_namespace)
 - [Forward a Port Using The Multipurpose Relay Tool: socat](./easy/forward_a_port_using_the_multipurpose_relay_tool_socat)

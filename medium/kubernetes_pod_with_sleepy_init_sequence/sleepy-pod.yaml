@@ -1,0 +1,26 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  annotations: {}
+  name: sleepy
+  namespace: challenge
+spec:
+  initContainers:
+    - image: ghcr.io/iximiuz/labs/kubernetes-native-sidecars/sleepy-sidecar:v1.0.0
+      name: sleepy-sidecar
+      restartPolicy: Always
+      startupProbe:
+        exec:
+          command:
+            - /bin/sh
+            - -c
+            - curl -f http://localhost:4567/identity
+        # The sleepy-sidecar container needs some extra time to warm up. 
+        # Despite its relatively quick startup, it's not fully ready 
+        # to serve requests for the first few seconds, and it makes 
+        # the app container trying to connect to it crash
+        failureThreshold: 999
+        periodSeconds: 2
+  containers:
+    - image: ghcr.io/iximiuz/labs/kubernetes-native-sidecars/app:v1.0.0
+      name: app

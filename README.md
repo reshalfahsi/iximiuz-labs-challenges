@@ -92,6 +92,7 @@ Solutions to iximiuz Labs Challenges
 - [Connect Multiple Network Namespaces](./hard/connect_multiple_network_namespaces)
 - [Forward a Port Without Starting a Proxy Process](./hard/port_forwarding_without_proxy)
 - [Network Access to a Container Started by ctr](./hard/access_containerd_container_with_no_published_ports)
+- [Reproduce a Docker Bridge Network Using Basic Linux Commands](./hard/reproduce_docker_bridge_network)
 
 ### Programming
 

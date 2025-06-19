@@ -67,6 +67,7 @@ Solutions to iximiuz Labs Challenges
 
 ### Networking
 
+- [Access a Docker Container With No Published Ports](./medium/access_docker_container_with_no_published_ports)
 - [Connect Two Network Namespaces](./medium/connect_two_network_namespaces)
 - [Set Up Network Address Translation (NAT) for a Container](./medium/set_up_nat_for_container)
 

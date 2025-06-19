@@ -19,6 +19,7 @@ spec:
         # Despite its relatively quick startup, it's not fully ready 
         # to serve requests for the first few seconds, and it makes 
         # the app container trying to connect to it crash
+        # Allow 999 * 2 = 1998 seconds (33.3 minutes) for startup
         failureThreshold: 999
         periodSeconds: 2
   containers:

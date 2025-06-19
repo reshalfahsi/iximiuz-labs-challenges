@@ -88,6 +88,13 @@ Solutions to iximiuz Labs Challenges
 
 ## Hard
 
+### Kubernetes
+
+- [Send a Signal to a Kubernetes App: a Non-Root Container Case](./hard/kubernetes_signal_non_root_container)
+- []()
+- []()
+- []()
+
 ### Networking
 
 - [Connect Multiple Network Namespaces](./hard/connect_multiple_network_namespaces)

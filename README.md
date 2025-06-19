@@ -71,6 +71,7 @@ Solutions to iximiuz Labs Challenges
 - [Connect Two Network Namespaces](./medium/connect_two_network_namespaces)
 - [Forward a Port Using the Hackers' Swiss Army Knife: netcat](./medium/port_forwarding_using_netcat)
 - [Set Up Network Address Translation (NAT) for a Container](./medium/set_up_nat_for_container)
+- [What Port Does This Kubernetes Pod Listen On?](./medium/kubernetes_what_port_this_pod_listens_on)
 
 ### Programming
 

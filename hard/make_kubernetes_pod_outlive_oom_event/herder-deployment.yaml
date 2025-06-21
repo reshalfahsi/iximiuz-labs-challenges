@@ -1,0 +1,32 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: herder
+  namespace: default
+spec:
+  replicas: 3  # Adjust to match your node count
+  selector:
+    matchLabels:
+      app: herder
+  template:
+    metadata:
+      labels:
+        app: herder
+    spec:
+      containers:
+      - name: herder
+        image: ghcr.io/iximiuz/labs/resource-hog/herder:v1.0.0
+        resources:
+          limits:
+            cpu: "250m"
+            memory: "256Mi"
+      affinity:
+        podAntiAffinity:
+          requiredDuringSchedulingIgnoredDuringExecution:
+            - labelSelector:
+                matchExpressions:
+                  - key: app
+                    operator: In
+                    values:
+                      - herder
+              topologyKey: "kubernetes.io/hostname"

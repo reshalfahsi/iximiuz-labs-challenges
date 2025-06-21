@@ -90,10 +90,10 @@ Solutions to iximiuz Labs Challenges
 
 ### Kubernetes
 
+- [Copy Files To/From a Running Kubernetes Pod: a Distroless Image Case](./hard/copy_files_to_from_distroless_kubernetes_pod) (**UNSOLVED - NEED HELP!!!**)
+- [Edit a File in a Running Kubernetes Pod: a Tricky Case](./hard/edit_file_in_running_kubernetes_pod) (**UNSOLVED - NEED HELP!!!**)
+- [Make a Kubernetes Pod Survive an OOM Event Without Restarting](./hard/make_kubernetes_pod_outlive_oom_event)
 - [Send a Signal to a Kubernetes App: a Non-Root Container Case](./hard/kubernetes_signal_non_root_container)
-- []()
-- []()
-- []()
 
 ### Networking
 
